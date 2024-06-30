@@ -8,7 +8,7 @@ class HomeScreen extends ConsumerWidget {
 
   @override
   Widget build(BuildContext context  , WidgetRef ref) {
-    final allProduct= ref.watch(ProductProvider);
+    final allProduct= ref.watch(productProvider);
 
     return Scaffold(
       appBar: AppBar(
